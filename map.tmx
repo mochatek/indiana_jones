@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="40" height="10" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#424242" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" name="my_tiles" tilewidth="128" tileheight="128" tilecount="28" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="res/stone.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="res/ladderTop.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="res/doorClosed_mid.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="res/doorClosed_top.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="res/boxCrate.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="res/signExit.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="res/torch1.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="res/lockRed.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="res/cactus.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="res/rock.png"/>
+  </tile>
+  <tile id="13">
+   <image width="128" height="128" source="res/stoneHalf.png"/>
+  </tile>
+  <tile id="14">
+   <image width="128" height="128" source="res/spikes.png"/>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="res/boxCrate_double.png"/>
+  </tile>
+  <tile id="18">
+   <image width="128" height="128" source="res/dirtCliff_left.png"/>
+  </tile>
+  <tile id="19">
+   <image width="128" height="128" source="res/dirtCliff_right.png"/>
+  </tile>
+  <tile id="20">
+   <image width="128" height="128" source="res/lavaTop_low.png"/>
+  </tile>
+  <tile id="21">
+   <image width="128" height="128" source="res/coinBronze.png"/>
+  </tile>
+  <tile id="22">
+   <image width="128" height="128" source="res/coinGold.png"/>
+  </tile>
+  <tile id="23">
+   <image width="128" height="128" source="res/coinSilver.png"/>
+  </tile>
+  <tile id="24">
+   <image width="128" height="128" source="res/gemGreen.png"/>
+  </tile>
+  <tile id="26">
+   <image width="128" height="128" source="res/keyBlue.png"/>
+  </tile>
+  <tile id="28">
+   <image width="128" height="128" source="res/signRight.png"/>
+  </tile>
+  <tile id="29">
+   <image width="128" height="128" source="res/grass_sprout.png"/>
+  </tile>
+  <tile id="30">
+   <image width="128" height="128" source="res/star.png"/>
+  </tile>
+  <tile id="31">
+   <image width="128" height="128" source="res/leverMid.png"/>
+  </tile>
+  <tile id="32">
+   <image width="128" height="128" source="res/gemBlue.png"/>
+  </tile>
+  <tile id="33">
+   <image width="128" height="128" source="res/gemRed.png"/>
+  </tile>
+  <tile id="34">
+   <image width="128" height="128" source="res/gemYellow.png"/>
+  </tile>
+ </tileset>
+ <layer id="2" name="Background" width="40" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFpABWJDwYwWB0HxsSmxWNBgFGNHqwgcHuvlEwPIDcQDuADAAA9CAAUQ==
+  </data>
+ </layer>
+ <layer id="1" name="Platform" width="40" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzkmFRALb2E3EKuHfQC2NzPN6AuQgX0Dr+BSn9CFLmasD3k6qN12NPafZSGKz47eInQR6z/yA3ngS53icEAU/oAyA==
+  </data>
+ </layer>
+ <layer id="6" name="Moving" width="40" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2B4AL4RZi+9AC38N9zDbKQAAJbYADk=
+  </data>
+ </layer>
+ <layer id="5" name="Spikes" width="40" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRgA74cWB0IEoADzQg5H5KAAAZywE/
+  </data>
+ </layer>
+ <layer id="4" name="Ladder" width="40" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUEAJMA+0AAmCwu28UDE8AABFgAAU=
+  </data>
+ </layer>
+ <layer id="3" name="Elements" width="40" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B2QA6N5kCjyTVTFsnMUTAKKAVyONjUNH84plcA3tYBHg==
+  </data>
+ </layer>
+ <layer id="7" name="Coins" width="40" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1ACSQKxMI7PFaWQuqXZJoMlL4FErRsAsctwhRoJaWgN8fh8ugJhwlcDBxgVwxSE9gTwan97pB2Qfcjgg5xVFKK1EVxeRDwBzGgJr
+  </data>
+ </layer>
+ <layer id="8" name="Special" width="40" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DgAedAO2AUjIJRQDIAACe4AAo=
+  </data>
+ </layer>
+ <layer id="9" name="Exit" width="40" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFww2wDLQDCADmgXbAKBgFo4AqAAAjVAAI
+  </data>
+ </layer>
+ <layer id="10" name="Key" width="40" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIx1ID7QDRsEoGAVDEgAAeJQAHA==
+  </data>
+ </layer>
+</map>
