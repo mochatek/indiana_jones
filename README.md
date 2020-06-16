@@ -10,6 +10,6 @@
 ---
 
 ### Screenshots :
-![screenshot 1](https://github.com/mochatek/coin_thief/blob/master/indiana_jones.PNG)
+![screenshot 1](https://github.com/mochatek/indiana_jones/blob/master/indiana_jones.PNG)
 
 **More projects available at :** [https://github.com/mochatek](https://github.com/mochatek)
